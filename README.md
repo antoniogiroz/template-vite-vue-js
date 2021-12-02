@@ -1,29 +1,31 @@
-# template-vite-vue-js
+# Vue JS + Vite
 
-This template should help get you started developing with Vue 3 in Vite.
+> Template for Vue JS projects + Vite
 
-## Recommended IDE Setup
+## Creating a repository from this template
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur).
+### Using `gh` tool
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+gh repo create --template antoniogiroz/template-vite-vue-js
 ```
 
-### Compile and Hot-Reload for Development
+[More info](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
-```sh
-npm run dev
+### or Cloning this repo using `degit`
+
+```bash
+npx degit antoniogiroz/template-vite-vue-js
 ```
 
-### Compile and Minify for Production
+## Install dependencies
 
-```sh
-npm run build
+```bash
+pnpm install
+```
+
+## Running
+
+```bash
+pnpm dev
 ```
