@@ -6,7 +6,7 @@
     "build": "vite build",
     "preview": "vite preview --port 5050",
     "format": "prettier --write .",
-    "lint": "cross-env NODE_ENV=production eslint --fix --ext .js,jsx,vue .",
+    "lint": "eslint --fix --ext .js,jsx,vue .",
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install"
   },
@@ -28,6 +28,6 @@
   },
   "lint-staged": {
     "*.{js,jsx,md,html,css,scss}": "pnpm format",
-    "*.{js,jsx,vue}": "pnpm lint"
+    "*.{js,jsx,vue}": "cross-env NODE_ENV=production pnpm lint"
   }
 }
