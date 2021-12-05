@@ -1,5 +1,7 @@
 # Vue JS + Vite
 
+> Template for Vue JS projects + Vite
+
 ## Try it
 
 ### Github template
