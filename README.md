@@ -1,31 +1,37 @@
 # Vue JS + Vite
 
-> Template for Vue JS projects + Vite
+## Try it
 
-## Creating a repository from this template
+### Github template
 
-### Using `gh` tool
+[Create a repo from this template on GitHub.](https://github.com/antoniogiroz/template-vite-vue-js/generate)
 
-```bash
-gh repo create --template antoniogiroz/template-vite-vue-js
-```
-
-[More info](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-
-### or Cloning this repo using `degit`
+### Clone to local
 
 ```bash
-npx degit antoniogiroz/template-vite-vue-js
+npx degit antoniogiroz/template-vite-vue-js my-app
+cd my-app
+pnpm install # If you don't have pnpm installed, run: npm install -g pnpm
 ```
 
-## Install dependencies
+## Usage
 
-```bash
-pnpm install
-```
-
-## Running
+### Development
 
 ```bash
 pnpm dev
+```
+
+### Build
+
+```bash
+pnpm build
+```
+
+And you will see the generated file in `dist` that ready to be served.
+
+### Serve dist
+
+```bash
+pnpm serve
 ```
